@@ -1,4 +1,22 @@
 .sidebarMainContainer{
     border: 3px solid green;
     width: 23%;
+    border-radius: 10px;
+    background-color: rgb(46,46,46,0.8);
+}
+.sideBarTopSection{
+    height: 10%;
+    border: 2px solid red;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.sideBarMiddleSection{
+    height: 25%;
+    border: 2px solid pink;
+}
+.sideBarBottomSection{
+    height: 65%;
+    border: 2px solid blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }

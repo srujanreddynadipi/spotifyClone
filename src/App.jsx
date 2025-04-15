@@ -3,6 +3,7 @@ import "./App.css";
 import MainSection from "./components/mainSection/MainSection";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
           <Sidebar />
           <MainSection />
         </div>
+        <Footer />
       </div>
     </>
   );
