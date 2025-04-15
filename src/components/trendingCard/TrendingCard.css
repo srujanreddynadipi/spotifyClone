@@ -1,0 +1,34 @@
+.trendingCardMainContainer {
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-top: 1rem;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardContainer {
+   /* border: 2px solid red; */
+   width: 16%;
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   align-items: center;
+}
+.cardContainer img {
+    width: 95%;
+    height: 60%;
+    border-radius: 10px;
+}
+.cardContainer h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1%; 
+}
+.cardContainer p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1%;
+    /* color: #808080; */
+    text-align: center;
+}

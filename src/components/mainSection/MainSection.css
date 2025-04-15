@@ -1,0 +1,7 @@
+.main-section {
+    /* border: 2px solid yellow; */
+    width: 78%;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(116,116,116) ,#242424);
+  }
