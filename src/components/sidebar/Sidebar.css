@@ -60,10 +60,36 @@
    color: black;
 }
 .sideBarBottomSectionTopContainer{
-    border: 2px solid red;
-    height: 60%;
-    /* padding: 1rem; */
+    /* border: 2px solid green; */
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    padding: 1.7rem;
+}
+.sideBarBottomSectionTopContainer p{
+  margin: 0.7rem; 
+  font-size: .8rem;
+
+}
+.sideBarBottomSectionBottomContainer{
+    /* border: 2px solid blue; */
+    padding: 1rem;
+}
+.sideBarBottomSectionBottomContainer button{
+ padding: 0.5rem 1rem; 
+ color: #fff;
+ height: 15%;
+ border: .5px solid white;
+ border-radius: 50px;
+ outline: none;
+ font-size: .8rem;
+ /* font-weight: 700; */
+ color: rgb(187, 182, 182);
+ background-color:#1a1919;
+ margin-left: 1.4rem;
+}
+.sideBarBottomSectionBottomContainer p{
+    margin:0 1rem 1rem 1rem;
+    margin-left: 1.7rem;
+    font-size: .9rem;
+    font-weight: 500;
 }

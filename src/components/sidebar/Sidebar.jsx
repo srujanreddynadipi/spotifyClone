@@ -11,6 +11,7 @@ const Sidebar = () => {
     "Advertising",
     "About",
     "Help",
+    "Accessibility",
   ];
   return (
     <div className="sidebarMainContainer">
@@ -37,7 +38,10 @@ const Sidebar = () => {
           })}
           <p>Legal</p>
         </div>
-        <div className="sideBarBottomSectionBottomContainer"> </div>
+        <div className="sideBarBottomSectionBottomContainer">
+          <p>Cookies</p>
+          <button>English</button>
+        </div>
       </div>
     </div>
   );

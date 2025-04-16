@@ -1,15 +1,68 @@
-.artistCardMainContainer{
+.artistCardMainContainer {
     width: 100%;
     margin-top: 1rem;
     height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.artistCardContainer img{
+.artistCardContainer {
+    position: relative;
+    width: 150px;
+}
+
+.imageContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 60%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(116,116,116,0), rgba(36,36,36,0.8));
+    opacity: 0;
+    transition: opacity 0.3s ease;
     border-radius: 50%;
-    
+}
+
+.artistCardContainer:hover .imageContainer::before {
+    opacity: 1;
+}
+
+.artistCardContainer:hover .playButtonContainer {
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+}
+
+.imageContainer {
+    width: 150px;  /* Reduced from 200px */
+    height: 150px; /* Reduced from 200px */
+    overflow: hidden;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.playButtonContainer{
+    position: absolute;
+    bottom: 45px;
+    right: 5px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease-out;
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+.artistCardContainer:hover .playButtonContainer{
+    opacity: 1;
+    transform: translateY(0);
 }

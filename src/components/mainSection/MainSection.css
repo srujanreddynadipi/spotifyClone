@@ -3,5 +3,6 @@
     width: 78%;
     overflow-y: scroll;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(116,116,116) ,#242424);
+    /* background-image: linear-gradient(to bottom, rgb(116,116,116) ,#242424); */
+    background-image: #111111;
   }
