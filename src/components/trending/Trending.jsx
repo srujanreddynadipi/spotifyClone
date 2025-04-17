@@ -3,11 +3,11 @@ import "./Trending.css";
 import TrendingCard from "../trendingCard/TrendingCard";
 import PopularArtist from "../popularArtist/PopularArtist";
 
-const Trending = () => {
+const Trending = ({setcurrentPage ,setcurrentEle}) => {
   return (
     <div className="trendingSectionMainContainer">
       <span>Trending Songs</span>
-      <TrendingCard />
+      <TrendingCard setcurrentPage={setcurrentPage} setcurrentEle={setcurrentEle}/>
     </div>
   );
 };

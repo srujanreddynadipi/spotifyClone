@@ -2,12 +2,15 @@ import React from "react";
 import "./TrendingCard.css";
 import { TrendingCardData } from "../../config/config";
 
-const TrendingCard = () => {
+const TrendingCard = ({setcurrentPage ,setcurrentEle}) => {
   return (
     <>
       <div className="trendingCardMainContainer">
         {TrendingCardData.map((item, index) => (
-          <div key={index} className="cardContainer">
+          <div key={index} onClick={()=>{
+            setcurrentPage("musicSpecificPage")
+            setcurrentEle(item)
+          }} className="cardContainer">
             <img src={item.imgsrc} alt={item.heading} />
             <h3>{item.heading}</h3>
             <p>{item.subheading}</p>
