@@ -1,0 +1,143 @@
+.artistSpecificContainer {
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to bottom, #1e3a8a 0%, #111111 100%);
+}
+
+.artistHeader {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 0;
+}
+
+.artistImage img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 24px;
+}
+
+.artistInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.artistType {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.artistInfo h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.artistStats {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.actionButtons {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.playButton {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #1ed760;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.followButton {
+  padding: 8px 16px;
+  border: 1px solid #b3b3b3;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  font-weight: 700;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.moreButton {
+  background: transparent;
+  border: none;
+  color: #b3b3b3;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.popularSection h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.songList {
+  display: flex;
+  flex-direction: column;
+}
+
+.songItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+
+.songItem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.songNumber {
+  width: 24px;
+  text-align: center;
+  color: #b3b3b3;
+  margin-right: 16px;
+}
+
+.songInfo {
+  display: flex;
+  align-items: center;
+}
+
+.songImage {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.songDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.songDetails h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.songDetails p {
+  margin: 0;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: white;
+}

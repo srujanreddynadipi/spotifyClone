@@ -44,5 +44,119 @@
     cursor: pointer;
     color: black;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 0 16px;
+    height: 64px;
+    color: white;
+  }
+  
+  .nav-left {
+    /* border: 2px solid #282828; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px;
+  }
+  
+  .nav-arrows {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .nav-arrow {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .spotify-logo {
+    margin-right: 8px;
+  }
+  
+  .nav-icon {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-icon:hover {
+    background-color: #282828;
+  }
+  
+  .nav-icon.active {
+    background-color: #333;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 12px 12px;
+    width: 300px;
+  }
+  
+  .search-icon {
+    margin-right: 8px;
+    color: #aaa;
+  }
+  
+  .search-input {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .install-btn, .signup-btn, .login-btn {
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .install-btn {
+    background-color: transparent;
+    color: #a7a7a7;
+    border: none;
+  }
+  
+  .signup-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+  
+  .login-btn {
+    background-color: white;
+    color: black;
+    border: none;
+  }
 
 /* Remove unused classes and hover effects remain the same */

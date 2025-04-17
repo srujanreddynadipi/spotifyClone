@@ -1,4 +1,76 @@
 .footerSectionMainContanier{
     border: 2px solid red;
-    height: 10%;
+    height: 8%;
 }
+.spotify-footer {
+    width: 100%;
+    background: linear-gradient(90deg, #AF2896 0%, #509BF5 100%);
+    padding: 010px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* max-width: 1170px; */
+    margin: 0 10px;
+    width: 100%;
+  }
+  
+  .footer-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer-title {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+  
+  .footer-subtitle {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-cta {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  
+  .signup-btn {
+    background-color: white;
+    color: #121212;
+    border: none;
+    border-radius: 500px;
+    padding: 14px 32px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    margin-right: 30px;
+    /* margin: 0; */
+  }
+  
+  .signup-btn:hover {
+    transform: scale(1.04);
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
